@@ -43,3 +43,6 @@ def submit(request):
 def delete(request, stu_id):
     Student.objects.filter(id=stu_id).delete()
     return redirect('/')
+
+def test(request):
+    pass
